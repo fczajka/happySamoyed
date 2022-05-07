@@ -6,8 +6,17 @@ module.exports = {
             backgroundImage: {
                 "landing-photo": "url('images/samoyed.webp')",
             },
+            maxWidth: {
+                "70%": "70%",
+            },
+            width: {
+                "1/2": "50%",
+            },
             height: {
                 "10vh": "10vh",
+            },
+            translate: {
+                "translate-0-5": "transform: translateX(0px,5px)",
             },
             colors: {
                 babyBlue: {
