@@ -3,6 +3,9 @@ module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
         extend: {
+            backgroundImage: {
+                "landing-photo": "url('images/samoyed.webp')",
+            },
             height: {
                 "10vh": "10vh",
             },
@@ -33,8 +36,8 @@ module.exports = {
                 },
             },
             fontFamily: {
-                oleoScript: ["Oleo Script"],
-                radioCanada: ["Radio Canada"],
+                "oleo-script": ["Oleo Script"],
+                "radio-canada": ["Radio Canada"],
             },
         },
     },
