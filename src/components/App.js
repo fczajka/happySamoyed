@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Landing from "./Landing";
 import DogsSection from "./DogsSection";
+import Contact from "./Contact";
 
 const App = () => {
     return (
@@ -8,6 +9,7 @@ const App = () => {
             <Header />
             <Landing />
             <DogsSection />
+            <Contact />
         </div>
     );
 };
