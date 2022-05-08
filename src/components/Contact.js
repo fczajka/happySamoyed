@@ -4,9 +4,9 @@ const Contact = () => {
     return (
         <div className="w-full flex">
             <div className="w-1/2 bg-babyBlue-100 flex flex-col justify-center items-center p-16">
-                <h3 className="text-4xl pb-16 pt-4 font-oleo-script tracking-wide text-babyBlue-900">
+                <h4 className="text-4xl pb-16 pt-4 font-oleo-script tracking-wide text-babyBlue-900">
                     Napisz do mnie!
-                </h3>
+                </h4>
                 <form
                     className="flex flex-col w-3/5"
                     onSubmit={(e) => {

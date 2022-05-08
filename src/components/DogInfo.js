@@ -11,9 +11,9 @@ const DogInfo = (props) => {
                 />
             </div>
             <div className="w-1/2 m-5 relative">
-                <h2 className="font-oleo-script tracking-wide text-4xl ml-2">
+                <h3 className="font-oleo-script tracking-wide text-4xl ml-2">
                     {props.name}
-                </h2>
+                </h3>
                 <p className="font-radio-canada max-w-sm mt-5 leading-relaxed text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna

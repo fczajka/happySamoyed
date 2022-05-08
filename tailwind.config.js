@@ -10,10 +10,11 @@ module.exports = {
                 "70%": "70%",
             },
             width: {
-                "1/2": "50%",
+                "256px": "256px",
             },
             height: {
                 "10vh": "10vh",
+                "160px": "160px",
             },
             translate: {
                 "translate-0-5": "transform: translateX(0px,5px)",
