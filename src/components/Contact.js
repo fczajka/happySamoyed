@@ -48,7 +48,13 @@ const Contact = () => {
                         cols="30"
                         wrap="soft"
                     />
-                    <Button text="Wyślij wiadomość!" />
+                    <Button
+                        text="Wyślij wiadomość!"
+                        textSize="text-sm"
+                        bgColor="bg-royalPink-400"
+                        padding="p-5"
+                        borderColor="border-royalPink-600"
+                    />
                 </form>
             </div>
             <div className="w-1/2 bg-babyBlue-200 p-24 flex flex-col items-center leading-relaxed text-justify text-babyBlue-900">

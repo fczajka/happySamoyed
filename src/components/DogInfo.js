@@ -24,7 +24,13 @@ const DogInfo = (props) => {
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <Button text="Dowiedz się więcej!" />
+                <Button
+                    text="Poczytaj o mnie!"
+                    textSize="text-sm"
+                    bgColor="bg-royalPink-400"
+                    padding="px-3 py-2"
+                    borderColor="border-royalPink-600"
+                />
             </div>
         </div>
     );
