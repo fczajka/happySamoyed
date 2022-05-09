@@ -21,6 +21,7 @@ module.exports = {
             },
             colors: {
                 babyBlue: {
+                    0: "#fafcfc",
                     50: "#f0faff",
                     100: "#def3fc",
                     200: "#bbe8fc",
@@ -31,6 +32,7 @@ module.exports = {
                     700: "#036fa1",
                     800: "#075d85",
                     900: "#0c4f6e",
+                    1500: "#253640",
                 },
                 royalPink: {
                     50: "#fcf2f4",

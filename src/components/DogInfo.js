@@ -2,7 +2,9 @@ import Button from "./Button";
 
 const DogInfo = (props) => {
     return (
-        <div className={`flex my-8 max-w-70% ${props.flex_direction}`}>
+        <div
+            className={`flex my-8 max-w-70% text-babyBlue-1500 ${props.flex_direction}`}
+        >
             <div className="w-1/2">
                 <img
                     className="w-full h-full object-cover"

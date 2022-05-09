@@ -2,9 +2,9 @@ import Button from "./Button";
 
 const Contact = () => {
     return (
-        <div className="w-full flex">
+        <div className="w-full flex text-babyBlue-900">
             <div className="w-1/2 bg-babyBlue-100 flex flex-col justify-center items-center p-16">
-                <h4 className="text-4xl pb-16 pt-4 font-oleo-script tracking-wide text-babyBlue-900">
+                <h4 className="text-4xl pb-16 pt-4 font-oleo-script tracking-wide ">
                     Napisz do mnie!
                 </h4>
                 <form
@@ -15,7 +15,7 @@ const Contact = () => {
                 >
                     <label
                         htmlFor="name"
-                        className="text-babyBlue-900 mb-1 font-bold tracking-wider"
+                        className="mb-1 font-bold tracking-wider"
                     >
                         Imię:
                     </label>
@@ -26,7 +26,7 @@ const Contact = () => {
                     />
                     <label
                         htmlFor="e-mail"
-                        className="text-babyBlue-900 mt-6 mb-1 font-bold tracking-wider"
+                        className=" mt-6 mb-1 font-bold tracking-wider"
                     >
                         E-mail:
                     </label>
@@ -37,7 +37,7 @@ const Contact = () => {
                     />
                     <label
                         htmlFor="message"
-                        className="text-babyBlue-900 mt-6 mb-1 font-bold tracking-wider"
+                        className="mt-6 mb-1 font-bold tracking-wider"
                     >
                         Wiadomość:
                     </label>

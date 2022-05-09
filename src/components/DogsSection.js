@@ -4,7 +4,7 @@ import samoyed2Photo from "../images/samoyedInfo2.webp";
 
 const DogsSection = () => {
     return (
-        <div className="w-full flex justify-center items-center flex-col px-28 py-10">
+        <div className="w-full flex justify-center items-center flex-col px-28 py-10 text-babyBlue-1500">
             <h2 className="font-radio-canada text-6xl my-16">Moje psy:</h2>
             <DogInfo
                 photo={samoyed1Photo}
