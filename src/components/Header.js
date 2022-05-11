@@ -5,7 +5,7 @@ const Header = () => {
         <header className="flex fixed top-0 items-center w-full h-10vh text-babyBlue-600 bg-babyBlue-0 z-10">
             <div className="basis-7/12 flex justify-center items-center">
                 <Link to="/">
-                    <h1 className="name text-center tracking-wide font-oleo-script text-4xl">
+                    <h1 className="name text-center tracking-wide font-titan-one text-4xl">
                         Happy Samoyed
                     </h1>
                 </Link>

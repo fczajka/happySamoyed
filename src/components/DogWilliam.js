@@ -10,7 +10,7 @@ const DogWilliam = () => {
                     <img src={William} alt="" />
                 </div>
                 <div className="w-1/2 ml-16">
-                    <h2 className="font-oleo-script tracking-wide text-4xl ml-2">
+                    <h2 className="font-titan-one tracking-wide text-4xl ml-2">
                         William
                     </h2>
                     <p className="font-radio-canada max-w-md mt-5 leading-relaxed text-justify">

@@ -51,7 +51,7 @@ module.exports = {
                 },
             },
             fontFamily: {
-                "oleo-script": ["Oleo Script"],
+                "titan-one": ["Titan One"],
                 "radio-canada": ["Radio Canada"],
             },
         },

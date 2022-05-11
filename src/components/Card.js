@@ -8,7 +8,7 @@ const Card = (props) => {
                 src={props.photo}
                 alt=""
             />
-            <h3 className="font-oleo-script p-4 text-lg tracking-wide">
+            <h3 className="font-titan-one p-4 text-lg tracking-wide">
                 {props.text}
             </h3>
             <p className="px-4 text-sm leading-relaxed text-justify">
