@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const DogInfo = (props) => {
     return (
@@ -24,13 +25,28 @@ const DogInfo = (props) => {
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <Button
-                    text="Poczytaj o mnie!"
-                    textSize="text-sm"
-                    bgColor="bg-royalPink-400"
-                    padding="px-3 py-2"
-                    borderColor="border-royalPink-600"
-                />
+                <Link to={`/details/${props.name}`}>
+                    <Button
+                        text="Poczytaj o mnie!"
+                        textSize="text-sm"
+                        textColor={
+                            props.name == "Pola"
+                                ? "text-royalPink-50"
+                                : "text-babyBlue-50"
+                        }
+                        bgColor={
+                            props.name == "Pola"
+                                ? "bg-royalPink-400"
+                                : "bg-babyBlue-400"
+                        }
+                        borderColor={
+                            props.name == "Pola"
+                                ? "border-royalPink-600"
+                                : "border-babyBlue-600"
+                        }
+                        padding="px-3 py-2"
+                    />
+                </Link>
             </div>
         </div>
     );

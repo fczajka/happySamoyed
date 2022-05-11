@@ -19,6 +19,7 @@ const Card = (props) => {
                 <Button
                     text="Dowiedz się więcej!"
                     textSize="text-sm"
+                    textColor="text-royalPink-50"
                     bgColor="bg-royalPink-400"
                     padding="px-3 py-2"
                     borderColor="border-royalPink-600"

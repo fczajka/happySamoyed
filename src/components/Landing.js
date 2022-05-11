@@ -10,8 +10,8 @@ const Landing = () => {
                     text="Sprawdź!"
                     textSize="text-sm"
                     bgColor="bg-babyBlue-400"
-                    padding="px-3 py-2"
                     borderColor="border-babyBlue-600"
+                    padding="px-3 py-2"
                 />
             </div>
         </div>

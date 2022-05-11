@@ -1,6 +1,6 @@
 import DogInfo from "./DogInfo";
-import samoyed1Photo from "../images/samoyedInfo1.webp";
-import samoyed2Photo from "../images/samoyedInfo2.webp";
+import samoyed1Photo from "../images/Pola.webp";
+import samoyed2Photo from "../images/William.webp";
 
 const DogsSection = () => {
     return (

@@ -16,6 +16,9 @@ module.exports = {
                 "10vh": "10vh",
                 "160px": "160px",
             },
+            margin: {
+                "10vh": "10vh",
+            },
             translate: {
                 "translate-0-5": "transform: translateX(0px,5px)",
             },
