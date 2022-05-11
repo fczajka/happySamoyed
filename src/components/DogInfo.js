@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 const DogInfo = (props) => {
     return (
         <div
-            className={`flex my-8 max-w-70% text-babyBlue-1500 ${props.flex_direction}`}
+            className={`flex my-8 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse`}
         >
-            <div className="w-1/2">
+            <div className="lg:w-5/12 2xl:w-1/2">
                 <img
                     className="w-full h-full object-cover"
                     src={props.photo}
                     alt=""
                 />
             </div>
-            <div className="w-1/2 m-5 relative">
+            <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
                 <h3 className="font-titan-one tracking-wide text-4xl ml-2">
                     {props.name}
                 </h3>
-                <p className="font-radio-canada max-w-sm mt-5 leading-relaxed text-justify">
+                <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation

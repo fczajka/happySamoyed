@@ -2,13 +2,13 @@ import Button from "./Button";
 
 const Contact = () => {
     return (
-        <div className="w-full flex text-babyBlue-900">
-            <div className="w-1/2 bg-babyBlue-100 flex flex-col justify-center items-center p-16">
-                <h4 className="text-4xl pb-16 pt-4 font-titan-one tracking-wide ">
+        <div className="w-full flex flex-col text-babyBlue-900 lg:flex-row">
+            <div className="w-full bg-babyBlue-100 flex flex-col justify-center items-center p-2 xsm:p-8 sm:p-12 lg:w-1/2 lg:p-16">
+                <h4 className="text-4xl pb-16 pt-4 font-titan-one tracking-wide text-center">
                     Napisz do mnie!
                 </h4>
                 <form
-                    className="flex flex-col w-3/5"
+                    className="flex flex-col w-8/12 md:w-1/2 lg:w-3/5"
                     onSubmit={(e) => {
                         e.preventDefault();
                     }}
@@ -58,8 +58,8 @@ const Contact = () => {
                     />
                 </form>
             </div>
-            <div className="w-1/2 bg-babyBlue-200 p-24 flex flex-col items-center leading-relaxed text-justify text-babyBlue-900">
-                <div className="w-3/5 mt-24">
+            <div className="w-full bg-babyBlue-200 p-4 pt-8 flex flex-col items-center leading-relaxed text-justify text-babyBlue-900 xsm:p-8 sm:p-16 lg:w-1/2 lg:p-12">
+                <div className="w-full mt-8 md:p-4 md:w-4/5 lg:w-full lg:mt-32 xl:w-4/5 2xl:w-3/5">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore

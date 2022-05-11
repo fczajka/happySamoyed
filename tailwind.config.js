@@ -7,10 +7,11 @@ module.exports = {
                 "landing-photo": "url('images/samoyed.webp')",
             },
             maxWidth: {
+                1920: "1920px",
                 "70%": "70%",
             },
             width: {
-                "256px": "256px",
+                256: "256px",
             },
             height: {
                 "10vh": "10vh",
@@ -21,6 +22,12 @@ module.exports = {
             },
             translate: {
                 "translate-0-5": "transform: translateX(0px,5px)",
+            },
+            backgroundPosition: {
+                "l-50-0": "50% 0%",
+            },
+            screens: {
+                xsm: "400px",
             },
             colors: {
                 babyBlue: {

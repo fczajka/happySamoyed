@@ -5,7 +5,7 @@ import WhyUs from "./WhyUs";
 
 const App = () => {
     return (
-        <div className="bg-babyBlue-0">
+        <div className="bg-babyBlue-0 max-w-1920 my-0 mx-auto">
             <Landing />
             <WhyUs />
             <DogsSection />
