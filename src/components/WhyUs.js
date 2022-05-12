@@ -15,10 +15,14 @@ const WhyUs = () => {
                 Dlaczego my:
             </h2>
             <div className="flex w-full items-center flex-col pt-8 xl:flex-row xl:justify-between 2xl:justify-evenly">
-                <Card text="Dużo ruchu" photo={walkingPic} />
-                <Card text="Godziny zabawy" photo={funPic} />
-                <Card text="Ważna nauka" photo={learningPic} />
-                <Card text="Zdrowe jedzenie" photo={foodPic} />
+                <div className="w-full flex flex-col items-center justify-around sm:flex-row md:w-full">
+                    <Card text="Dużo ruchu" photo={walkingPic} />
+                    <Card text="Godziny zabawy" photo={funPic} />
+                </div>
+                <div className="w-full flex flex-col items-center justify-around sm:flex-row md:w-full">
+                    <Card text="Ważna nauka" photo={learningPic} />
+                    <Card text="Zdrowe jedzenie" photo={foodPic} />
+                </div>
             </div>
         </div>
     );

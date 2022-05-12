@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Card = (props) => {
     return (
-        <div className="w-256 bg-babyBlue-100 rounded-md shadow-md shadow-babyBlue-300 text-babyBlue-1500 transition-all mt-12 hover:scale-105">
+        <div className="w-256 bg-babyBlue-100 rounded-md shadow-md shadow-babyBlue-300 text-babyBlue-1500 transition-all mt-20 hover:scale-105 xl:mt-12">
             <img
                 className="w-full h-160px object-cover rounded-t-md"
                 src={props.photo}
