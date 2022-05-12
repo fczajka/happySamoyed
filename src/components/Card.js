@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "./Button";
 
 const Card = (props) => {
@@ -16,14 +17,16 @@ const Card = (props) => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="px-4">
-                <Button
-                    text="Dowiedz się więcej!"
-                    textSize="text-sm"
-                    textColor="text-royalPink-50"
-                    bgColor="bg-royalPink-400"
-                    padding="px-3 py-2"
-                    borderColor="border-royalPink-600"
-                />
+                <Link to="/details/why-us">
+                    <Button
+                        text="Dowiedz się więcej!"
+                        textSize="text-sm"
+                        textColor="text-royalPink-50"
+                        bgColor="bg-royalPink-400"
+                        padding="px-3 py-2"
+                        borderColor="border-royalPink-600"
+                    />
+                </Link>
             </div>
         </div>
     );

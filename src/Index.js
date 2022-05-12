@@ -5,6 +5,7 @@ import App from "./components/App";
 import Header from "./components/Header";
 import DogPola from "./components/DogPola";
 import DogWilliam from "./components/DogWilliam";
+import WhyUsDetails from "./components/WhyUsDetails";
 
 const Index = () => {
     return (
@@ -14,6 +15,7 @@ const Index = () => {
                 <Routes>
                     <Route path="/details/Pola" element={<DogPola />} />
                     <Route path="/details/William" element={<DogWilliam />} />
+                    <Route path="/details/why-us" element={<WhyUsDetails />} />
                     <Route path="/" element={<App />} />
                 </Routes>
             </BrowserRouter>
