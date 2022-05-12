@@ -6,13 +6,15 @@ const Landing = () => {
             <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
                 <h2 className="text-4xl">Weź jednego ze sobą</h2>
                 <h3 className="text-xl">I nie każ sobie dłużej czekać </h3>
-                <Button
-                    text="Sprawdź!"
-                    textSize="text-sm"
-                    bgColor="bg-babyBlue-400"
-                    borderColor="border-babyBlue-600"
-                    padding="px-3 py-2"
-                />
+                <a href="#whyUs">
+                    <Button
+                        text="Sprawdź!"
+                        textSize="text-sm"
+                        bgColor="bg-babyBlue-400"
+                        borderColor="border-babyBlue-600"
+                        padding="px-3 py-2"
+                    />
+                </a>
             </div>
         </div>
     );
