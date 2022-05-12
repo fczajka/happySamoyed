@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <header className="flex fixed top-0 items-center w-full h-min py-2 text-babyBlue-600 bg-babyBlue-0 z-10 xsm:py-0 xsm:h-10vh">
+        <header className="flex fixed top-0 items-center w-full h-min py-4 text-babyBlue-600 bg-babyBlue-0 z-10 xsm:py-0 xsm:h-10vh">
             <div className="basis-full flex justify-center items-center lg:basis-7/12">
                 <Link to="/">
                     <h1 className="name text-center tracking-wide font-titan-one text-4xl mx-4">

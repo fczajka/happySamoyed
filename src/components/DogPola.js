@@ -4,16 +4,16 @@ import Pola from "../images/Pola.webp";
 
 const DogPola = () => {
     return (
-        <div className="bg-babyBlue-0 p-48">
-            <div className="flex">
-                <div className="w-1/2">
+        <div className="bg-babyBlue-0 mt-10vh lg:flex lg:justify-center xl:px-28 2xl:px-52">
+            <div className="flex flex-col  max-w-1920 sm:items-center md:flex-row md:items-start md:p-4 lg:w-11/12">
+                <div className="sm:w-3/5 sm:mt-4 md:w-2/5 lg:w-1/2">
                     <img src={Pola} alt="" />
                 </div>
-                <div className="w-1/2 ml-16">
-                    <h2 className="font-titan-one tracking-wide text-4xl ml-2">
+                <div className="p-6 sm:w-3/5 sm:mt-4 md:p-0 md:ml-6 lg:w-1/2 2xl:ml-16">
+                    <h2 className="font-titan-one tracking-wide text-4xl mb-4 ml-2">
                         Pola
                     </h2>
-                    <p className="font-radio-canada max-w-md mt-5 leading-relaxed text-justify">
+                    <p className="font-radio-canada max-w-xl text-sm leading-relaxed text-justify xsm:text-base lg:max-w-lg 2xl:max-w-2xl">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
