@@ -97,7 +97,7 @@ const Contact = () => {
                         </svg>
                         123 456 789
                     </p>
-                    <p className="mt-6">
+                    <p className="mt-6 mb-20">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5 inline-block"

@@ -2,6 +2,7 @@ import Landing from "./Landing";
 import DogsSection from "./DogsSection";
 import Contact from "./Contact";
 import WhyUs from "./WhyUs";
+import MobileNavbar from "./MobileNavbar";
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <WhyUs />
             <DogsSection />
             <Contact />
+            <MobileNavbar />
         </div>
     );
 };
