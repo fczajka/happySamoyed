@@ -5,7 +5,7 @@ import William from "../images/Pola.webp";
 const DogWilliam = () => {
     return (
         <div className="bg-babyBlue-0 mt-10vh lg:flex lg:justify-center xl:px-28 2xl:px-52">
-            <div className="flex flex-col  max-w-1920 sm:items-center md:flex-row md:items-start md:p-4 lg:w-11/12">
+            <div className="flex flex-col max-w-1920 sm:items-center md:flex-row md:items-start md:p-4 lg:w-11/12">
                 <div className="sm:w-3/5 sm:mt-4 md:w-2/5 lg:w-1/2">
                     <img src={William} alt="" />
                 </div>
@@ -24,13 +24,12 @@ const DogWilliam = () => {
                         non proident, sunt in culpa qui officia deserunt mollit
                         anim id est laborum.
                     </p>
-                    <Link to="/">
+                    <Link to="/" className="text-babyBlue-0">
                         <Button
                             text="Strona główna"
                             textSize="text-sm"
-                            textColor="text-royalPink-50"
-                            bgColor="bg-royalPink-400"
-                            borderColor="border-royalPink-600"
+                            bgColor="bg-babyBlue-400"
+                            borderColor="border-babyBlue-600"
                             padding="px-3 py-2"
                         />
                     </Link>

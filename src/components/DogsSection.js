@@ -8,11 +8,7 @@ const DogsSection = () => {
             <h2 className="font-titan-one text-4xl my-16 xsm:text-5xl">
                 Moje psy:
             </h2>
-            <DogInfo
-                photo={samoyed1Photo}
-                name="Pola"
-                flex_direction="flex-row"
-            />
+            <DogInfo photo={samoyed1Photo} name="Pola" />
             <DogInfo photo={samoyed2Photo} name="William" />
         </div>
     );
