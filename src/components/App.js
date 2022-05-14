@@ -11,7 +11,6 @@ const App = () => {
             <WhyUs />
             <DogsSection />
             <Contact />
-            <MobileNavbar />
         </div>
     );
 };

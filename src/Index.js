@@ -7,6 +7,7 @@ import DogPola from "./components/DogPola";
 import DogWilliam from "./components/DogWilliam";
 import WhyUsDetails from "./components/WhyUsDetails";
 import Gallery from "./components/Gallery";
+import MobileNavbar from "./components/MobileNavbar";
 
 const Index = () => {
     return (
@@ -20,6 +21,7 @@ const Index = () => {
                     <Route path="/details/gallery" element={<Gallery />} />
                     <Route path="/" element={<App />} />
                 </Routes>
+                <MobileNavbar />
             </BrowserRouter>
         </StrictMode>
     );
