@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 const DogInfo = (props) => {
     return (
-        <div
-            className={`flex my-8 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse`}
-        >
+        <div className="flex my-8 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse">
             <div className="lg:w-5/12 2xl:w-1/2">
                 <img
                     className="w-full h-full object-cover"
