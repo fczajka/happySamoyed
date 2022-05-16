@@ -6,7 +6,7 @@ import Animation from "./Animation";
 const DogWilliam = () => {
     return (
         <Animation>
-            <div className="bg-babyBlue-0 mt-10vh lg:flex lg:justify-center xl:px-28 2xl:px-52">
+            <div className="bg-babyBlue-0 mt-10vh min-h-screen lg:flex lg:justify-center xl:px-28 2xl:px-52">
                 <div className="flex flex-col max-w-1920 sm:items-center md:flex-row md:items-start md:p-4 lg:w-11/12">
                     <div className="sm:w-3/5 sm:mt-4 md:w-2/5 lg:w-1/2">
                         <img src={William} alt="" />

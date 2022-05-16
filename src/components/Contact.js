@@ -2,7 +2,10 @@ import Button from "./Button";
 
 const Contact = () => {
     return (
-        <div className="w-full flex flex-col text-babyBlue-900 lg:flex-row">
+        <div
+            id="contact"
+            className="w-full flex flex-col text-babyBlue-900 lg:flex-row"
+        >
             <div className="w-full bg-babyBlue-100 flex flex-col justify-center items-center p-2 xsm:p-8 sm:p-12 lg:w-1/2 lg:p-16">
                 <h4 className="text-4xl pb-16 pt-4 font-titan-one tracking-wide text-center">
                     Napisz do mnie!

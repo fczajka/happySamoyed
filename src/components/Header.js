@@ -11,12 +11,16 @@ const Header = () => {
                 </Link>
             </div>
             <ul className="hidden justify-center space-x-4 lg:flex lg:basis-5/12">
-                <li className="font-radio-canada">Strona główna</li>
+                <li className="font-radio-canada">
+                    <Link to="/">Strona główna</Link>
+                </li>
                 <li className="font-radio-canada">Psy</li>
-                <Link to="/details/gallery">
-                    <li className="font-radio-canada">Galeria</li>
-                </Link>
-                <li className="font-radio-canada">Kontakt</li>
+                <li className="font-radio-canada">
+                    <Link to="/details/gallery">Galeria</Link>
+                </li>
+                <li className="font-radio-canada">
+                    <a href="#contact">Kontakt</a>
+                </li>
             </ul>
         </header>
     );

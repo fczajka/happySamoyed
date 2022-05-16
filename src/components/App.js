@@ -1,6 +1,5 @@
 import Landing from "./Landing";
 import DogsSection from "./DogsSection";
-import Contact from "./Contact";
 import WhyUs from "./WhyUs";
 import Animation from "./Animation";
 
@@ -11,7 +10,6 @@ const App = () => {
                 <Landing />
                 <WhyUs />
                 <DogsSection />
-                <Contact />
             </div>
         </Animation>
     );
