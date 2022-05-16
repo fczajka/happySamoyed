@@ -7,7 +7,7 @@ const Gallery = () => {
         <Animation>
             <div className="w-full mt-10vh flex flex-col items-center text-babyBlue-1500 p-12">
                 <div className="w-full max-w-1920 flex flex-col items-center">
-                    <h2 className="font-titan-one tracking-wide text-4xl m-12 mb-20">
+                    <h2 className="font-titan-one tracking-wide text-4xl mb-20">
                         Pola
                     </h2>
                     <div className="w-full flex flex-col lg:flex-row">
