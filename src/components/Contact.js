@@ -1,6 +1,40 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Button from "./Button";
+import { validate } from "react-email-validator";
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        form.current.name.value = form.current.name.value.trim();
+        form.current.email.value = form.current.email.value.trim();
+        form.current.message.value = form.current.message.value.trim();
+
+        if (validate(form.current.email.value)) {
+            emailjs
+                .sendForm(
+                    "gmail",
+                    "template_7y5yjvg",
+                    form.current,
+                    "d-iXMGfxsUvFFZHe0"
+                )
+                .then(
+                    (result) => {
+                        // ToDo: Add confirmation
+                        console.log(result.text);
+                    },
+                    (error) => {
+                        console.log(error.text);
+                    }
+                );
+        } else {
+            console.log("Zły mail!");
+        }
+        e.target.reset();
+    };
     return (
         <div
             id="contact"
@@ -11,10 +45,9 @@ const Contact = () => {
                     Napisz do mnie!
                 </h4>
                 <form
+                    ref={form}
                     className="flex flex-col w-8/12 md:w-1/2 lg:w-3/5"
-                    onSubmit={(e) => {
-                        e.preventDefault();
-                    }}
+                    onSubmit={sendEmail}
                 >
                     <label
                         htmlFor="name"
@@ -25,6 +58,7 @@ const Contact = () => {
                     <input
                         type="text"
                         id="name"
+                        name="name"
                         className="rounded-md border-0"
                     />
                     <label
@@ -35,7 +69,8 @@ const Contact = () => {
                     </label>
                     <input
                         type="text"
-                        id="e-mail"
+                        id="email"
+                        name="email"
                         className="rounded-md border-0"
                     />
                     <label
@@ -46,7 +81,8 @@ const Contact = () => {
                     </label>
                     <textarea
                         className="resize-none rounded-md border-0"
-                        id="name"
+                        id="message"
+                        name="message"
                         rows="3"
                         cols="30"
                         wrap="soft"
