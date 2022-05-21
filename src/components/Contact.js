@@ -2,9 +2,17 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "./Button";
 import { validate } from "react-email-validator";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
     const form = useRef();
+
+    const contextClass = {
+        success: "bg-green-200",
+        error: "bg-royalPink-200",
+        default: "bg-babyBlue-300",
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -13,8 +21,26 @@ const Contact = () => {
         form.current.email.value = form.current.email.value.trim();
         form.current.message.value = form.current.message.value.trim();
 
-        if (validate(form.current.email.value)) {
-            emailjs
+        if (
+            !form.current.name.value &&
+            !form.current.email.value &&
+            !form.current.message.value
+        ) {
+            toast.error("Brak danych w formularzu!");
+        } else if (!form.current.name.value && !form.current.message.value) {
+            toast.error("Brak imienia i wiadomości!");
+        } else if (!form.current.name.value && !form.current.email.value) {
+            toast.error("Brak imienia i adresu mailowego!");
+        } else if (!form.current.email.value && !form.current.message.value) {
+            toast.error("Brak maila i wiadomości!");
+        } else if (!form.current.name.value) {
+            toast.error("Brak imienia!");
+        } else if (!form.current.email.value) {
+            toast.error("Brak adresu mailowego!");
+        } else if (!form.current.message.value) {
+            toast.error("Brak wiadomości!");
+        } else if (validate(form.current.email.value)) {
+            const sendMail = emailjs
                 .sendForm(
                     "gmail",
                     "template_7y5yjvg",
@@ -22,18 +48,20 @@ const Contact = () => {
                     "d-iXMGfxsUvFFZHe0"
                 )
                 .then(
-                    (result) => {
-                        // ToDo: Add confirmation
-                        console.log(result.text);
+                    () => {
+                        e.target.reset();
                     },
-                    (error) => {
-                        console.log(error.text);
-                    }
+                    () => {}
                 );
+
+            toast.promise(sendMail, {
+                pending: "Wysyłamy wiadomość!",
+                success: "Wiadomość wysłana!",
+                error: "Wiadomość nie zotała wysłana!",
+            });
         } else {
-            console.log("Zły mail!");
+            toast.error("Zły mail");
         }
-        e.target.reset();
     };
     return (
         <div
@@ -150,6 +178,18 @@ const Contact = () => {
                     </p>
                 </div>
             </div>
+            <ToastContainer
+                autoClose={1800}
+                hideProgressBar={true}
+                newestOnTop={true}
+                closeButton={false}
+                position="bottom-center"
+                toastClassName={({ type }) =>
+                    contextClass[type || "default"] +
+                    " flex flex-row w-full p-2 min-h-10 mb-4 rounded-md text-babyBlue-1500 overflow-hidden cursor-pointer last:mb-10vh lg:last:mb-4"
+                }
+                bodyClassName={() => "flex font-radio-canada block p-3"}
+            />
         </div>
     );
 };
