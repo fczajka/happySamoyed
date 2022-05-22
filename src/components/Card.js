@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "./Button";
 
 const Card = (props) => {
     return (
@@ -16,16 +15,12 @@ const Card = (props) => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <div className="px-4">
-                <Link to="/details/why-us">
-                    <Button
-                        text="Dowiedz się więcej!"
-                        textSize="text-sm"
-                        textColor="text-royalPink-50"
-                        bgColor="bg-royalPink-400"
-                        padding="px-3 py-2"
-                        borderColor="border-royalPink-600"
-                    />
+            <div className="w-min my-5 mx-4 rounded-md whitespace-nowrap text-royalPink-50 bg-royalPink-400 border-royalPink-600 border-b-4 hover:border-b-0 hover:translate-y-1 hover:mb-6">
+                <Link
+                    to="/details/why-us"
+                    className="w-full block h-full px-3 py-2 text-sm font-radio-canada font-bold tracking-wider "
+                >
+                    Dowiedz się więcej!
                 </Link>
             </div>
         </div>

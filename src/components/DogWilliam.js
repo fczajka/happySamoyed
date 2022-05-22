@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "./Button";
 import William from "../images/Pola.webp";
 import Animation from "./Animation";
 
@@ -26,15 +25,14 @@ const DogWilliam = () => {
                             cupidatat non proident, sunt in culpa qui officia
                             deserunt mollit anim id est laborum.
                         </p>
-                        <Link to="/" className="text-babyBlue-0">
-                            <Button
-                                text="Strona główna"
-                                textSize="text-sm"
-                                bgColor="bg-babyBlue-400"
-                                borderColor="border-babyBlue-600"
-                                padding="px-3 py-2"
-                            />
-                        </Link>
+                        <div className="w-min my-5 rounded-md whitespace-nowrap text-babyBlue-50 bg-babyBlue-400 border-babyBlue-600 border-b-4 hover:border-b-0 hover:translate-y-1 hover:mb-6">
+                            <Link
+                                to="/"
+                                className="w-full block h-full px-3 py-2 text-sm font-radio-canada font-bold tracking-wider "
+                            >
+                                Strona główna
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>

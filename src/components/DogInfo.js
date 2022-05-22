@@ -1,4 +1,3 @@
-import Button from "./Button";
 import { Link } from "react-router-dom";
 
 const DogInfo = (props) => {
@@ -23,28 +22,20 @@ const DogInfo = (props) => {
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <Link to={`/details/${props.name}`}>
-                    <Button
-                        text="Poczytaj o mnie!"
-                        textSize="text-sm"
-                        textColor={
-                            props.name == "Pola"
-                                ? "text-royalPink-50"
-                                : "text-babyBlue-50"
-                        }
-                        bgColor={
-                            props.name == "Pola"
-                                ? "bg-royalPink-400"
-                                : "bg-babyBlue-400"
-                        }
-                        borderColor={
-                            props.name == "Pola"
-                                ? "border-royalPink-600"
-                                : "border-babyBlue-600"
-                        }
-                        padding="px-3 py-2"
-                    />
-                </Link>
+                <div
+                    className={`w-min my-5 rounded-md whitespace-nowrap ${
+                        props.name == "Pola"
+                            ? "text-royalPink-50 bg-royalPink-400 border-royalPink-600"
+                            : "text-babyBlue-50 bg-babyBlue-400 border-babyBlue-600"
+                    } border-b-4 hover:border-b-0 hover:translate-y-1 hover:mb-6`}
+                >
+                    <Link
+                        to={`/details/${props.name}`}
+                        className="w-full block h-full px-3 py-2 text-sm font-radio-canada font-bold tracking-wider "
+                    >
+                        Poczytaj o mnie!
+                    </Link>
+                </div>
             </div>
         </div>
     );
