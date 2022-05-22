@@ -69,7 +69,7 @@ const Contact = () => {
             className="w-full flex flex-col max-w-1920 mx-auto text-babyBlue-900 lg:flex-row"
         >
             <div className="w-full bg-babyBlue-100 flex flex-col justify-center items-center p-2 xsm:p-8 sm:p-12 lg:w-1/2 lg:p-16">
-                <h4 className="text-4xl pb-8 pt-4 font-titan-one tracking-wide text-center lg:pb-16">
+                <h4 className="text-4xl pb-16 mt-10vh font-titan-one tracking-wide text-center lg:mt-0">
                     Napisz do mnie!
                 </h4>
                 <form
@@ -127,7 +127,7 @@ const Contact = () => {
             </div>
             <div className="w-full bg-babyBlue-200 p-4 pt-8 flex flex-col items-center leading-relaxed text-justify text-babyBlue-900 xsm:p-8 sm:p-16 lg:w-1/2 lg:p-12">
                 <div className="w-full mt-8 md:p-4 md:w-4/5 lg:w-full lg:mt-32 xl:w-4/5 2xl:w-3/5">
-                    <p>
+                    <p className="mt-11">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam, quis nostrud
