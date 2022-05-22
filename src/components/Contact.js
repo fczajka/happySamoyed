@@ -60,7 +60,7 @@ const Contact = () => {
                 error: "Wiadomość nie zotała wysłana!",
             });
         } else {
-            toast.error("Zły mail");
+            toast.error("Zły mail!");
         }
     };
     return (

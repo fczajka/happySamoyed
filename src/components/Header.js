@@ -6,7 +6,7 @@ const Header = () => {
             <div className="basis-full flex justify-center items-center lg:basis-7/12">
                 <Link to="/">
                     <h1 className="name text-center tracking-wide font-titan-one text-4xl mx-4">
-                        Happy Samoyed
+                        Sczęśliwy Puszek
                     </h1>
                 </Link>
             </div>
