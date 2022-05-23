@@ -4,7 +4,8 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                "landing-photo": "url('images/samoyed.webp')",
+                "landing-photo-1": "url('images/samoyed.webp')",
+                "landing-photo-2": "url('images/samoyedWalking.webp')",
             },
             maxWidth: {
                 1920: "1920px",
