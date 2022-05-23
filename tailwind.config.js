@@ -6,6 +6,7 @@ module.exports = {
             backgroundImage: {
                 "landing-photo-1": "url('images/samoyed.webp')",
                 "landing-photo-2": "url('images/samoyedWalking.webp')",
+                "our-dogs": "url('images/background.webp')",
             },
             maxWidth: {
                 1920: "1920px",
