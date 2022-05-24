@@ -6,6 +6,15 @@ import learningPic from "../images/samoyedLearning.webp";
 import walkingPic from "../images/samoyedWalking.webp";
 
 const WhyUs = () => {
+    const walkingText =
+        "Nasze psy mają dostęp do dużego podwórka do zabaw oraz zapewniamy im codzienne długie spacery.";
+    const funText =
+        "Organizujemy naszym pieskom wiele socjalizujących zabaw, jak i również samodzielnie je szkolimy i bawimy.";
+    const learningText =
+        "Każdy nasz pies jest nauczony zachowania czystości w domu jak i zachowania na spacerach";
+    const foodText =
+        "Nasze psy są karmione karmą Royal Cayien oraz często otrzymują posiłki typu BARF. Do tego oczywiście wszelką potrzebną suplementację.";
+
     return (
         <div
             id="whyUs"
@@ -16,12 +25,28 @@ const WhyUs = () => {
             </h2>
             <div className="flex w-full items-center flex-col xl:flex-row xl:justify-between 2xl:justify-evenly">
                 <div className="w-full flex flex-col items-center justify-around sm:flex-row md:w-full">
-                    <Card text="Dużo ruchu" photo={walkingPic} />
-                    <Card text="Godziny zabawy" photo={funPic} />
+                    <Card
+                        text="Dużo ruchu"
+                        photo={walkingPic}
+                        description={walkingText}
+                    />
+                    <Card
+                        text="Godziny zabawy"
+                        photo={funPic}
+                        description={funText}
+                    />
                 </div>
                 <div className="w-full flex flex-col items-center justify-around sm:flex-row md:w-full">
-                    <Card text="Ważna nauka" photo={learningPic} />
-                    <Card text="Zdrowe jedzenie" photo={foodPic} />
+                    <Card
+                        text="Ważna nauka"
+                        photo={learningPic}
+                        description={learningText}
+                    />
+                    <Card
+                        text="Zdrowe jedzenie"
+                        photo={foodPic}
+                        description={foodText}
+                    />
                 </div>
             </div>
         </div>

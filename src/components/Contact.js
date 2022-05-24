@@ -126,17 +126,9 @@ const Contact = () => {
                 </form>
             </div>
             <div className="w-full bg-babyBlue-200 p-4 pt-8 flex flex-col items-center leading-relaxed text-justify text-babyBlue-900 xsm:p-8 sm:p-16 lg:w-1/2 lg:p-12">
-                <div className="w-full mt-8 md:p-4 md:w-4/5 lg:w-full lg:mt-28 xl:w-4/5 2xl:w-3/5">
+                <div className="w-full mt-8 md:p-4 md:w-4/5 lg:w-full lg:mt-16 xl:w-4/5 2xl:w-3/5">
                     <p className="mt-11">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
+                        W razie wszelkich wątpliwości zapraszamy do kontaktu.
                     </p>
                     <p className="mt-10">
                         <svg

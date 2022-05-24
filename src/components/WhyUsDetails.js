@@ -24,14 +24,10 @@ const WhyUsDetails = () => {
                                 Odpowiedni wysiłek
                             </h3>
                             <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur.
+                                Każdy nasz pies ma dostęp do dużego podwórka
+                                (4000m2) gdzie bawią się ze sobą lub innymi za
+                                znajomymi psami. Codziennie zapewniamy im długi
+                                spacer i odpowiednią dawkę zabaw i szkoleń.
                             </p>
                         </div>
                     </div>
@@ -48,14 +44,11 @@ const WhyUsDetails = () => {
                                 Nauka
                             </h3>
                             <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur.
+                                Nasze samojedy są nauczone wszystkich zasad
+                                poprawnego zachowania w domu, szczególnie w
+                                kwestii niszczycielstwa oraz czystości. Dbamy o
+                                ich socjalizację i poprawne zachowanie względem
+                                innych zwierząt.
                             </p>
                         </div>
                     </div>
@@ -72,14 +65,9 @@ const WhyUsDetails = () => {
                                 Dużo zabawy
                             </h3>
                             <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur.
+                                Organizujemy naszym pieskom wiele
+                                socjalizujących zabaw, jak i również
+                                samodzielnie je szkolimy i bawimy.
                             </p>
                         </div>
                     </div>
@@ -96,14 +84,16 @@ const WhyUsDetails = () => {
                                 Dobre jedzenie
                             </h3>
                             <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut
-                                enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum
-                                dolore eu fugiat nulla pariatur.
+                                W naszej hodowli psy są karmione, karmą suchą
+                                marki Royal Canin oraz często dodatkowymi
+                                posiłkami typu BARF. Do przez cały okres
+                                dojrzewania otrzymywały odpowiednie witaminy i
+                                suplementy na zdrowe stawy. Nadal są
+                                suplementowane algami morskimi, które
+                                zapewniając niezbędne aminokwasy, kwasy
+                                tłuszczowe omega-3, witamin i jodu. Jak i
+                                również poprawiają wybarwienie sierści i
+                                zmniejszają tworzenie się kamienia nazębnego.
                             </p>
                         </div>
                     </div>

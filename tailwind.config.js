@@ -18,6 +18,7 @@ module.exports = {
             height: {
                 "10vh": "10vh",
                 "160px": "160px",
+                104: "26rem",
             },
             margin: {
                 "10vh": "10vh",
