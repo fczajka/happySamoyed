@@ -25,8 +25,10 @@ const Landing = () => {
             >
                 <div className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-1 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
                     <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
-                        <h2 className="text-4xl">Weź jednego ze sobą</h2>
-                        <h3 className="text-xl mt-2">
+                        <h2 className="text-3xl xsm:text-4xl">
+                            Weź jednego ze sobą
+                        </h2>
+                        <h3 className="text-lg mt-2 xsm:text-xl">
                             I nie każ sobie dłużej czekać
                         </h3>
                         <div className="my-5 mx-auto rounded-md text-babyBlue-50 bg-babyBlue-400 border-babyBlue-600 border-b-4 w-min hover:border-b-0 hover:translate-y-1 hover:mb-6">
@@ -41,8 +43,12 @@ const Landing = () => {
                 </div>
                 <div className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-2 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
                     <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
-                        <h2 className="text-4xl">Mam na imię William</h2>
-                        <h3 className="text-xl mt-2">Jestem reproduktorem</h3>
+                        <h2 className="text-3xl xsm:text-4xl">
+                            Mam na imię William
+                        </h2>
+                        <h3 className="text-lg mt-2 xsm:text-xl">
+                            Jestem reproduktorem
+                        </h3>
                         <div className="my-5 mx-auto rounded-md text-babyBlue-50 bg-babyBlue-400 border-babyBlue-600 border-b-4 w-min hover:border-b-0 hover:translate-y-1 hover:mb-6">
                             <Link
                                 to="/details/William"
