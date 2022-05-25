@@ -117,6 +117,7 @@ const Contact = () => {
                     />
                     <Button
                         text="Wyślij wiadomość!"
+                        type="submit"
                         textSize="text-sm"
                         textColor="text-royalPink-50"
                         bgColor="bg-royalPink-400"

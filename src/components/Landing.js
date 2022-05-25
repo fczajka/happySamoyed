@@ -5,20 +5,25 @@ const Landing = () => {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        const change = setTimeout(() => setIndex(index == 0 ? 1 : 0), 5000);
+        if (index == 2) {
+            setIndex(0);
+        } else if (index == -1) {
+            setIndex(1);
+        }
+    }, [index]);
+
+    useEffect(() => {
+        const change = setTimeout(() => setIndex(index == 0 ? 1 : 0), 12000);
         return () => clearTimeout(change);
     }, [index]);
 
     return (
-        <div className="mx-auto my-0 overflow-hidden">
+        <div className="relativemx-auto my-0 overflow-hidden">
             <div
                 className="w-full whitespace-nowrap transition duration-700 ease-in-out"
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-                <div
-                    key={0}
-                    className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-1 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center"
-                >
+                <div className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-1 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
                     <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
                         <h2 className="text-4xl">Weź jednego ze sobą</h2>
                         <h3 className="text-xl mt-2">
@@ -34,10 +39,7 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <div
-                    key={1}
-                    className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-2 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center"
-                >
+                <div className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-2 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
                     <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
                         <h2 className="text-4xl">Mam na imię William</h2>
                         <h3 className="text-xl mt-2">Jestem reproduktorem</h3>
@@ -51,6 +53,48 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="absolute w-full max-w-1920 bottom-28 h-4 lg:bottom-12">
+                <ul className="flex justify-center text-babyBlue-50">
+                    <li className="bg-babyBlue-1500 mx-6 p-2 rounded-full">
+                        <button
+                            className="block"
+                            onClick={() => setIndex(index - 1)}
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-6 w-6"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                    clipRule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                    </li>
+                    <li className="bg-babyBlue-1500 mx-6 p-2 rounded-full">
+                        <button
+                            className="block"
+                            onClick={() => setIndex(index + 1)}
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-6 w-6"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                    clipRule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
             </div>
         </div>
     );
