@@ -18,12 +18,12 @@ const Landing = () => {
     }, [index]);
 
     return (
-        <div className="relativemx-auto my-0 overflow-hidden">
+        <div className="w-full h-92vh relative mx-auto my-0 overflow-hidden">
             <div
-                className="w-full whitespace-nowrap transition duration-700 ease-in-out"
+                className="w-full h-92vh whitespace-nowrap transition duration-700 ease-in-out"
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
-                <div className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-1 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
+                <div className="w-full h-92vh text-center whitespace-nowrap bg-landing-photo-1 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
                     <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
                         <h2 className="text-3xl xsm:text-4xl">
                             Weź jednego ze sobą
@@ -41,7 +41,7 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full h-screen text-center whitespace-nowrap bg-landing-photo-2 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
+                <div className="w-full h-92vh text-center whitespace-nowrap bg-landing-photo-2 bg-l-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center">
                     <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
                         <h2 className="text-3xl xsm:text-4xl">
                             Mam na imię William
