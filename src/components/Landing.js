@@ -60,7 +60,7 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute w-full max-w-1920 bottom-12 h-4 lg:bottom-24">
+            <div className="absolute w-full max-w-1920 h-4 bottom-28">
                 <ul className="flex justify-center text-babyBlue-50">
                     <li className="bg-babyBlue-1500 mx-6 p-2 rounded-full">
                         <button
