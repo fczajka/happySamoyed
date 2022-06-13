@@ -18,9 +18,9 @@ const WhyUs = () => {
     return (
         <div
             id="whyUs"
-            className="w-full flex justify-center items-center flex-col py-10 md:px-20 2xl:px-28"
+            className="w-full flex justify-center items-center flex-col py-10 bg-why-us bg-no-repeat md:px-20 2xl:px-28"
         >
-            <h2 className="font-titan-one text-4xl mt-12 mb-10 text-babyBlue-1500 xsm:text-5xl lg:mt-8">
+            <h2 className="font-titan-one text-4xl mt-12 mb-10 text-royalPink-1500 xsm:text-5xl lg:mt-8">
                 Dlaczego my:
             </h2>
             <div className="flex w-full items-center flex-col xl:flex-row xl:justify-between 2xl:justify-evenly">

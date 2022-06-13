@@ -6,7 +6,8 @@ module.exports = {
             backgroundImage: {
                 "landing-photo-1": "url('images/samoyed.webp')",
                 "landing-photo-2": "url('images/samoyedWalking.webp')",
-                "our-dogs": "url('images/background.webp')",
+                "our-dogs": "url('images/background-blue.webp')",
+                "why-us": "url('images/background-pink.webp')",
             },
             maxWidth: {
                 1920: "1920px",
@@ -61,6 +62,7 @@ module.exports = {
                     700: "#bf192f",
                     800: "#9e182a",
                     900: "#821726",
+                    1500: "#381217",
                 },
             },
             fontFamily: {
