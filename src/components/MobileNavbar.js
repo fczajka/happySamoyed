@@ -31,7 +31,7 @@ const MobileNavbar = () => {
         };
     }, [isOpenDogs, isOpenLitters]);
     return (
-        <nav className="fixed w-full bottom-0 p-4 text-babyBlue-1500 bg-babyBlue-0 lg:hidden">
+        <nav className="fixed w-full bottom-0 p-4 text-babyBlue-1500 bg-babyBlue-0 h-8vh lg:hidden">
             <ul className="flex justify-evenly text-sm xsm:text-base">
                 <li ref={refDogs} className="flex basis-1/4 justify-center">
                     <button

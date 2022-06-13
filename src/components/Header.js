@@ -45,7 +45,7 @@ const Header = () => {
         <header className="w-full relative py-4 text-babyBlue-1500 bg-babyBlue-0 z-10 shadow-md xsm:h-8vh xsm:py-0">
             <div className="flex w-full h-full mx-auto max-w-1920 items-center">
                 <div className="basis-full flex justify-center items-center lg:basis-7/12">
-                    <h1 className="text-center tracking-wide font-titan-one text-4xl mx-4">
+                    <h1 className="text-center tracking-wide font-titan-one text-2xl mx-4 my-1 xsm:my-0 xsm:text-4xl">
                         <Link to="/">Sczęśliwy Puszek</Link>
                     </h1>
                 </div>
