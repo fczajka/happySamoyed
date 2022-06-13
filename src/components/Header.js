@@ -1,11 +1,11 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
     const [isOpenDogs, setIsOpenDogs] = useState(false);
     const [isOpenLitters, setIsOpenLitters] = useState(false);
     const refDogs = useRef();
-    const refLitter = useRef();
+    const refLitters = useRef();
 
     const onMouseEnterDogs = () => {
         window.innerWidth > 1024 && setIsOpenDogs(true);
@@ -22,24 +22,6 @@ const Header = () => {
     const onMouseLeaveLitters = () => {
         window.innerWidth > 1024 && setIsOpenLitters(false);
     };
-
-    useEffect(() => {
-        const handler = (event) => {
-            if (
-                isOpenDogs &&
-                refDogs.current &&
-                !refDogs.current.contains(event.target)
-            ) {
-                setIsOpenDogs(false);
-            }
-        };
-        document.addEventListener("mousedown", handler);
-        document.addEventListener("touchstart", handler);
-        return () => {
-            document.removeEventListener("mousedown", handler);
-            document.removeEventListener("touchstart", handler);
-        };
-    }, [isOpenDogs]);
 
     return (
         <header className="w-full relative py-4 text-babyBlue-1500 bg-babyBlue-0 z-10 shadow-md xsm:h-8vh xsm:py-0">
@@ -102,7 +84,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </li>
-                    <li ref={refLitter} className="font-radio-canada">
+                    <li ref={refLitters} className="font-radio-canada">
                         <button
                             type="button"
                             className="flex"
