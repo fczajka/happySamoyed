@@ -116,7 +116,10 @@ const Header = () => {
                             }`}
                         >
                             <li className="hover:bg-babyBlue-100">
-                                <Link to="/" className="py-0.5 px-4 block">
+                                <Link
+                                    to="/details/litter/a"
+                                    className="py-0.5 px-4 block"
+                                >
                                     Miot A
                                 </Link>
                             </li>

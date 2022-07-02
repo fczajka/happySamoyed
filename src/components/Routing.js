@@ -5,6 +5,7 @@ import DogPola from "./DogPola";
 import DogWilliam from "./DogWilliam";
 import WhyUsDetails from "./WhyUsDetails";
 import Gallery from "./Gallery";
+import LitterA from "./LitterA";
 
 const Routing = () => {
     const location = useLocation();
@@ -14,6 +15,7 @@ const Routing = () => {
             <Route path="/details/William" element={<DogWilliam />} />
             <Route path="/details/why-us" element={<WhyUsDetails />} />
             <Route path="/details/gallery" element={<Gallery />} />
+            <Route path="/details/litter/a" element={<LitterA />} />
             <Route path="/" element={<App />} />
         </Routes>
     );
