@@ -10,20 +10,20 @@ const WhyUsDetails = () => {
     return (
         <Animation>
             <div className="w-full flex justify-center">
-                <div className="max-w-1920 flex flex-col items-center mt-10vh">
-                    <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse">
+                <div className="max-w-1920 flex flex-col items-center">
+                    <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
                         <div className="lg:w-5/12 2xl:w-1/2">
                             <img
-                                className="w-full h-full object-cover"
+                                className="w-160 h-96 object-cover"
                                 src={walking}
                                 alt=""
                             />
                         </div>
                         <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
-                            <h3 className="font-titan-one tracking-wide text-4xl ml-2">
+                            <h3 className="font-titan-one tracking-wide text-4xl">
                                 Odpowiedni wysiłek
                             </h3>
-                            <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
+                            <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Każdy nasz pies ma dostęp do dużego podwórka
                                 (4000m2) gdzie bawią się ze sobą lub innymi za
                                 znajomymi psami. Codziennie zapewniamy im długi
@@ -31,19 +31,19 @@ const WhyUsDetails = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex my-8 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse">
+                    <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
                         <div className="lg:w-5/12 2xl:w-1/2">
                             <img
-                                className="w-full h-full object-cover"
+                                className="w-160 h-96 object-cover"
                                 src={samoyedLearning}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
-                            <h3 className="font-titan-one tracking-wide text-4xl ml-2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:pl-5 2xl:w-1/2">
+                            <h3 className="font-titan-one tracking-wide text-4xl">
                                 Nauka
                             </h3>
-                            <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
+                            <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Nasze samojedy są nauczone wszystkich zasad
                                 poprawnego zachowania w domu, szczególnie w
                                 kwestii niszczycielstwa oraz czystości. Dbamy o
@@ -52,38 +52,38 @@ const WhyUsDetails = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex my-8 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse">
+                    <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
                         <div className="lg:w-5/12 2xl:w-1/2">
                             <img
-                                className="w-full h-full object-cover"
+                                className="w-160 h-96 object-cover"
                                 src={fun}
                                 alt=""
                             />
                         </div>
                         <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
-                            <h3 className="font-titan-one tracking-wide text-4xl ml-2">
+                            <h3 className="font-titan-one tracking-wide text-4xl">
                                 Dużo zabawy
                             </h3>
-                            <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
+                            <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Organizujemy naszym pieskom wiele
                                 socjalizujących zabaw, jak i również
                                 samodzielnie je szkolimy i bawimy.
                             </p>
                         </div>
                     </div>
-                    <div className="flex my-8 max-w-70% text-babyBlue-1500 flex-col lg:flex-row lg:odd:flex-row-reverse">
+                    <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
                         <div className="lg:w-5/12 2xl:w-1/2">
                             <img
-                                className="w-full h-full object-cover"
+                                className="w-160 h-96 object-cover"
                                 src={food}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
-                            <h3 className="font-titan-one tracking-wide text-4xl ml-2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:pl-5 2xl:w-1/2">
+                            <h3 className="font-titan-one tracking-wide text-4xl">
                                 Dobre jedzenie
                             </h3>
-                            <p className="font-radio-canada max-w-lg mt-5 leading-relaxed text-justify">
+                            <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 W naszej hodowli psy są karmione, karmą suchą
                                 marki Royal Canin oraz często dodatkowymi
                                 posiłkami typu BARF. Do przez cały okres
@@ -97,7 +97,7 @@ const WhyUsDetails = () => {
                             </p>
                         </div>
                     </div>
-                    <Link to="/" className="mb-10vh lg:my-12">
+                    <Link to="/" className="mb-10vh lg:mb-12">
                         <Button
                             text="Strona główna"
                             textSize="text-sm"
