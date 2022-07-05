@@ -12,16 +12,16 @@ const LitterA = () => {
             <div className="w-full flex justify-center">
                 <div className="max-w-1920 flex flex-col items-center">
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={pola}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:ml-0 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
-                                Betty
+                                Bettsy
                             </h3>
                             <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -38,16 +38,16 @@ const LitterA = () => {
                         </div>
                     </div>
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pr-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={samoyedLearning}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:pl-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:mr-0 lg:pl-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
-                                Bella
+                                Boni
                             </h3>
                             <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -64,16 +64,16 @@ const LitterA = () => {
                         </div>
                     </div>
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={fun}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:ml-0 lg:pr-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
-                                Brutus
+                                Baki
                             </h3>
                             <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -90,16 +90,16 @@ const LitterA = () => {
                         </div>
                     </div>
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pr-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={william}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:pl-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:mr-0 lg:pl-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
-                                Bartek
+                                Basco
                             </h3>
                             <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -115,6 +115,7 @@ const LitterA = () => {
                             </p>
                         </div>
                     </div>
+
                     <Link to="/" className="mb-10vh lg:mb-12">
                         <Button
                             text="Strona główna"

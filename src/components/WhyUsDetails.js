@@ -12,14 +12,14 @@ const WhyUsDetails = () => {
             <div className="w-full flex justify-center">
                 <div className="max-w-1920 flex flex-col items-center">
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={walking}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:ml-0 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
                                 Odpowiedni wysiłek
                             </h3>
@@ -32,35 +32,40 @@ const WhyUsDetails = () => {
                         </div>
                     </div>
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pr-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={samoyedLearning}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:pl-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:mr-0 lg:pl-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
                                 Nauka
                             </h3>
                             <p className="font-radio-canada max-w-xl mt-5 leading-relaxed text-justify">
-                                Nasze samojedy są nauczone wszystkich zasad
-                                poprawnego zachowania w domu, szczególnie w
-                                kwestii niszczycielstwa oraz czystości. Dbamy o
-                                ich socjalizację i poprawne zachowanie względem
-                                innych zwierząt.
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.
                             </p>
                         </div>
                     </div>
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={fun}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:ml-0 lg:pr-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
                                 Dużo zabawy
                             </h3>
@@ -72,14 +77,14 @@ const WhyUsDetails = () => {
                         </div>
                     </div>
                     <div className="flex my-16 max-w-70% text-babyBlue-1500 flex-col lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
-                        <div className="lg:w-5/12 2xl:w-1/2">
+                        <div className="lg:w-5/12 2xl:w-1/2 2xl:pr-5">
                             <img
                                 className="w-160 h-96 object-cover"
                                 src={food}
                                 alt=""
                             />
                         </div>
-                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:pl-5 2xl:w-1/2">
+                        <div className="lg:w-7/12 my-5 relative lg:m-5 lg:mr-0 lg:pl-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-4xl">
                                 Dobre jedzenie
                             </h3>
@@ -97,6 +102,7 @@ const WhyUsDetails = () => {
                             </p>
                         </div>
                     </div>
+
                     <Link to="/" className="mb-10vh lg:mb-12">
                         <Button
                             text="Strona główna"
