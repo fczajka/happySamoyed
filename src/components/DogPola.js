@@ -6,19 +6,19 @@ const DogPola = () => {
     return (
         <Animation>
             <div className="bg-babyBlue-0 mt-10vh min-h-screen lg:flex lg:justify-center xl:px-28 2xl:px-52">
-                <div className="flex flex-col max-w-1920 sm:items-center md:flex-row md:items-start md:p-4 lg:w-11/12">
-                    <div className="sm:w-3/5 sm:mt-4 md:w-2/5 lg:w-1/2">
+                <div className="flex text-babyBlue-1500 flex-col max-w-1920 sm:items-center md:flex-row md:items-start lg:w-11/12">
+                    <div className="sm:w-3/5 md:w-2/5 lg:w-1/2">
                         <img src={Pola} alt="" />
                     </div>
-                    <div className="p-6 sm:w-3/5 sm:mt-4 md:p-0 md:ml-6 lg:w-1/2 2xl:ml-16">
-                        <h2 className="font-titan-one tracking-wide text-4xl mb-4 ml-2">
+                    <div className="p-6 sm:w-3/5 md:p-0 md:ml-6 lg:w-1/2 2xl:ml-16">
+                        <h2 className="font-titan-one tracking-wide text-2xl mb-4 ml-2">
                             Pola
                         </h2>
                         <div className="text-base font-radio-canada max-w-xl lg:max-w-lg 2xl:max-w-2xl 2xl:text-lg">
                             <p className="mb-2">
                                 Suczka pochodząca z rodowitych terenów rasy.
                             </p>
-                            <p className="text-sm leading-relaxed text-justify xsm:text-base">
+                            <p className="text-sm leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
                                 Suczka o bardzo pogodniej naturze, niezwykle
                                 cierpliwa i spokojna w kontakcie z ludźmi.
                                 Wysoce opiekuńcza w stosunku do swoich dzieci,
