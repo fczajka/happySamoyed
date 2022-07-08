@@ -11,7 +11,7 @@ const WhyUsDetails = () => {
         <Animation>
             <div className="w-full mt-10vh flex justify-center">
                 <div className="max-w-1920 text-babyBlue-1500 flex flex-col items-center">
-                    <div className="flex flex-col w-full mb-16 sm:max-w-70% lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
+                    <div className="flex flex-col w-full mb-16 sm:max-w-70% lg:max-w-85% lg:odd:flex-row-reverse 2xl:max-w-90%">
                         <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-6">
                             <img
                                 className="w-160 h-96 object-cover"

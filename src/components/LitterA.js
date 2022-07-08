@@ -11,7 +11,7 @@ const LitterA = () => {
         <Animation>
             <div className="w-full mt-10vh flex justify-center">
                 <div className="max-w-1920 text-babyBlue-1500 flex flex-col items-center">
-                    <div className="flex flex-col w-full mb-16 sm:max-w-70% lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
+                    <div className="flex flex-col w-full mb-16 sm:max-w-60% lg:odd:flex-row-reverse">
                         <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-6">
                             <img
                                 className="w-160 h-96 object-cover"
@@ -37,7 +37,7 @@ const LitterA = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col w-full mb-16 sm:max-w-70% lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
+                    <div className="flex flex-col w-full mb-16 sm:max-w-60% lg:flex-row">
                         <div className="lg:w-5/12 2xl:w-1/2 2xl:pr-6">
                             <img
                                 className="w-160 h-96 object-cover"
@@ -63,7 +63,7 @@ const LitterA = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col w-full mb-16 sm:max-w-70% lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
+                    <div className="flex flex-col w-full mb-16 sm:max-w-60% lg:odd:flex-row-reverse">
                         <div className="lg:w-5/12 2xl:w-1/2 2xl:pl-6">
                             <img
                                 className="w-160 h-96 object-cover"
@@ -89,7 +89,7 @@ const LitterA = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col w-full mb-16 sm:max-w-70% lg:max-w-85% lg:flex-row lg:odd:flex-row-reverse 2xl:max-w-90%">
+                    <div className="flex flex-col w-full mb-16 sm:max-w-60% lg:flex-row">
                         <div className="lg:w-5/12 2xl:w-1/2 2xl:pr-6">
                             <img
                                 className="w-160 h-96 object-cover"
@@ -113,6 +113,54 @@ const LitterA = () => {
                                 occaecat cupidatat non proident, sunt in culpa
                                 qui officia deserunt mollit anim id est laborum.
                             </p>
+                        </div>
+                    </div>
+
+                    <div className="w-full font-radio-canada to-babyBlue-1500 p-6 text-justify text-sm leading-relaxed lg:p-0 xsm:text-base xsm:leading-relaxed sm:max-w-60%">
+                        <h3 className="font-titan-one tracking-wide text-2xl ml-2 text-center mb-8 lg:text-4xl">
+                            Rodzice
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div className="flex flex-col justify-center py-6 mb-12 sm:max-w-60% sm:flex-row">
+                        <div className="mb-8 sm:mb-0">
+                            <h4 className="font-titan-one tracking-wide text-xl ml-2 text-center mb-8 lg:text-3xl">
+                                Pola
+                            </h4>
+                            <img
+                                className="w-full h-auto my-2 object-cover md:pr-3"
+                                src={pola}
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <h4 className="font-titan-one tracking-wide text-xl ml-2 text-center mb-8 lg:text-3xl">
+                                William
+                            </h4>
+                            <img
+                                className="w-full h-auto my-2 object-cover md:pl-3"
+                                src={william}
+                                alt=""
+                            />
                         </div>
                     </div>
 
