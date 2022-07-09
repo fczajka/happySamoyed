@@ -6,7 +6,6 @@ import Contact from "./components/Contact";
 import MobileNavbar from "./components/MobileNavbar";
 import Routing from "./components/Routing";
 import ScrollToTop from "./components/ScrollToTop";
-import ScrollToTopButton from "./components/ScrollToTopButton";
 
 const Index = () => {
     return (
@@ -16,7 +15,6 @@ const Index = () => {
                 <Header />
                 <Routing />
                 <Contact />
-                <ScrollToTopButton />
                 <MobileNavbar />
             </BrowserRouter>
         </StrictMode>
