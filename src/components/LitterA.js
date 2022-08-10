@@ -25,7 +25,7 @@ const LitterA = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Betsy
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Śliczna dobrze zbudowana dziewczynka o
                                 niezależnym spokojnym charakterze. Przyjaźnie
                                 nastawiona do innych ludzi jak i zwierząt. Jest
@@ -46,7 +46,7 @@ const LitterA = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Boni
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Urodziwa suczka o pięknych proporcjach. Posiada
                                 bardzo gęste puchate futerko. Spokojna i
                                 stonowana ale bardzo przyjacielska. Wykazuje
@@ -67,7 +67,7 @@ const LitterA = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Baki
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Pięknie zbudowany samiec o bujnym białym futrze.
                                 Naturalny lider stada, wykazuje dużo
                                 samodzielności, bardzo chętny do bliskiego
@@ -88,7 +88,7 @@ const LitterA = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Basco
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Przystojny chłopiec, bardzo dobrze zbudowany o
                                 pięknym puchatym futerku. Wykazuje zdecydowane
                                 cechy samca, chętny do zabawy oraz kontaktu z
@@ -98,7 +98,7 @@ const LitterA = () => {
                         </div>
                     </div>
 
-                    <div className="w-full font-radio-canada to-babyBlue-1500 p-6 text-justify text-sm leading-relaxed lg:p-0 xsm:text-base xsm:leading-relaxed sm:max-w-60%">
+                    <div className="w-full font-radio-canada to-babyBlue-1500 p-6 text-justify text-sm leading-relaxed lg:p-0 sm:text-base sm:leading-relaxed sm:max-w-60% md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                         <h3 className="font-titan-one tracking-wide text-2xl ml-2 text-center mb-8 lg:text-4xl">
                             Rodzice
                         </h3>

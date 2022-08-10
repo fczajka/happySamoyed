@@ -23,7 +23,7 @@ const WhyUsDetails = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Dużo ruchu
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Każdy nasz pies ma dostęp do dużego podwórka
                                 (4000m2) gdzie bawią się ze sobą lub innymi za
                                 znajomymi psami. Codziennie zapewniamy im długi
@@ -43,7 +43,7 @@ const WhyUsDetails = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Nauka
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Nasze samojedy są nauczone wszystkich zasad
                                 poprawnego zachowania w domu, szczególnie w
                                 kwestii niszczycielstwa oraz czystości. Dbamy o
@@ -64,7 +64,7 @@ const WhyUsDetails = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Dużo zabawy
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 Organizujemy naszym pieskom wiele
                                 socjalizujących zabaw, jak i również
                                 samodzielnie je szkolimy i bawimy.
@@ -83,7 +83,7 @@ const WhyUsDetails = () => {
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
                                 Dobre jedzenie
                             </h3>
-                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
+                            <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify sm:text-base sm:leading-relaxed md:text-lg md:leading-relaxed lg:text-xl lg:leading-relaxed">
                                 W naszej hodowli psy są karmione, karmą suchą
                                 marki Royal Canin oraz często dodatkowymi
                                 posiłkami typu BARF. Do przez cały okres
