@@ -24,7 +24,7 @@ const Landing = () => {
                 style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
                 <div className="w-full h-84vh text-center whitespace-nowrap bg-landing-photo-1 bg-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-center lg:h-92vh">
-                    <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
+                    <div className="w-full font-radio-canada text-babyBlue-1500 text-center lg:ml-16 lg:w-auto lg:text-babyBlue-0">
                         <h2 className="text-3xl xsm:text-4xl">
                             Weź jednego ze sobą
                         </h2>
@@ -34,7 +34,7 @@ const Landing = () => {
                         <div className="my-5 mx-auto rounded-md text-babyBlue-50 bg-babyBlue-400 border-babyBlue-600 border-b-4 w-min hover:border-b-0 hover:translate-y-1 hover:mb-6">
                             <a
                                 href="#whyUs"
-                                className="w-full block h-full px-3 py-2 text-sm font-radio-canada font-bold tracking-wider "
+                                className="w-full block h-full px-3 py-2 text-sm font-radio-canada font-bold tracking-wider"
                             >
                                 Sprawdź!
                             </a>
@@ -42,7 +42,7 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className="w-full h-84vh text-center whitespace-nowrap bg-landing-photo-2 bg-50-0 bg-cover bg-no-repeat inline-flex items-center justify-start lg:bg-0-40 lg:h-92vh">
-                    <div className="w-full font-radio-canada text-babyBlue-0 text-center lg:ml-16 lg:w-auto">
+                    <div className="w-full font-radio-canada text-babyBlue-1500 text-center lg:ml-16 lg:w-auto lg:text-babyBlue-0">
                         <h2 className="text-3xl xsm:text-4xl">
                             Mam na imię William
                         </h2>

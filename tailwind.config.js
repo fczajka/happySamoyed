@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                "landing-photo-1": "url('images/samoyed.webp')",
+                "landing-photo-1": "url('images/Basco.webp')",
                 "landing-photo-2": "url('images/William.webp')",
                 "our-dogs": "url('images/background-blue.webp')",
                 "why-us": "url('images/background-pink.webp')",

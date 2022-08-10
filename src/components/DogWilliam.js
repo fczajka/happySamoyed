@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import William from "../images/Pola.webp";
+import William from "../images/William.webp";
 import Animation from "./Animation";
 
 const DogWilliam = () => {
@@ -41,8 +41,8 @@ const DogWilliam = () => {
                                     Właściciel : Ewa Wawrzeńczyk
                                 </li>
                                 <li className="my-2">Hodowca :</li>
-                                <li className="my-2">Wzrost : 53cm</li>
-                                <li className="mb-2">Waga : 20kg</li>
+                                <li className="my-2">Wzrost : 56cm</li>
+                                <li className="mb-2">Waga : 22kg</li>
                             </ul>
                         </div>
                         <div className="w-min my-5 rounded-md whitespace-nowrap text-babyBlue-50 bg-babyBlue-400 border-babyBlue-600 border-b-4 hover:border-b-0 hover:translate-y-1 hover:mb-6">
