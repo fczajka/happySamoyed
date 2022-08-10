@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import walking from "../images/samoyedWalking.webp";
+import walking from "../images/movement.jpg";
 import fun from "../images/samoyedFun.webp";
 import samoyedLearning from "../images/samoyedLearning.webp";
 import food from "../images/food.webp";
@@ -21,7 +21,7 @@ const WhyUsDetails = () => {
                         </div>
                         <div className="p-6 relative lg:w-7/12 lg:p-0 lg:pr-6 lg:my-5 2xl:w-1/2">
                             <h3 className="font-titan-one tracking-wide text-2xl mb-4 ml-2 lg:m-0 lg:text-4xl">
-                                Odpowiedni wysiłek
+                                Dużo ruchu
                             </h3>
                             <p className="font-radio-canada text-sm max-w-xl mt-5 leading-relaxed text-justify xsm:text-base xsm:leading-relaxed">
                                 Każdy nasz pies ma dostęp do dużego podwórka

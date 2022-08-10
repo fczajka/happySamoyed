@@ -9,6 +9,9 @@ module.exports = {
                 "our-dogs": "url('images/background-blue.webp')",
                 "why-us": "url('images/background-pink.webp')",
             },
+            objectPosition: {
+                "top-25%": "center 25%",
+            },
             maxWidth: {
                 1920: "1920px",
                 "50%": "50%",
@@ -36,6 +39,7 @@ module.exports = {
                 "92vh": "92vh",
                 "160px": "160px",
                 104: "26rem",
+                112: "28rem",
             },
             margin: {
                 "10vh": "10vh",

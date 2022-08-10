@@ -3,7 +3,7 @@ import Card from "./Card";
 import foodPic from "../images/food.webp";
 import funPic from "../images/samoyedFun.webp";
 import learningPic from "../images/samoyedLearning.webp";
-import walkingPic from "../images/samoyedWalking.webp";
+import walkingPic from "../images/movement.jpg";
 
 const WhyUs = () => {
     const walkingText =

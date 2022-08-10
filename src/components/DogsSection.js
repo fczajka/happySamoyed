@@ -8,8 +8,16 @@ const DogsSection = () => {
             <h2 className="font-titan-one text-4xl mb-16 xsm:text-5xl">
                 Nasze psy:
             </h2>
-            <DogInfo photo={samoyed1Photo} name="Pola" />
-            <DogInfo photo={samoyed2Photo} name="William" />
+            <DogInfo
+                photo={samoyed1Photo}
+                name="Pola"
+                text="Suczka o bardzo pogodniej naturze, niezwykle cierpliwa i spokojna w kontakcie z ludźmi. Wysoce opiekuńcza w stosunku do swoich dzieci, naturalna przewodniczka. Nigdy nie przejawiała tendencji niszczycielskich, świetnie znosi podróże krótkie i długie."
+            />
+            <DogInfo
+                photo={samoyed2Photo}
+                name="William"
+                text="Dumny samiec, od urodzenie posiada bardzo dostojny chód. Bardzo aktywny i przyjacielski, jest gotów do ciągłego ruchu. Przepiękna głowa o idealnych proporcjach otoczona bujną grzywą. Zgrabnej atletycznej postury. Naturalny model."
+            />
         </div>
     );
 };
