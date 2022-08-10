@@ -23,7 +23,7 @@ const DogWilliam = () => {
                                 bardzo energiczny i przyjazny. Każdego w domu
                                 traktuje jako swoje stado czy to człowiek czy to
                                 kot. Jest podatny na naukę, ale potrzebuje do
-                                tego smacznej nagrody 😊. Ojciec Williama
+                                tego smacznej nagrody 😊.
                             </p>
                             <p className="text-sm mt-2 xsm:text-base">
                                 William posiada pełne legalne uprawnienie
@@ -34,8 +34,12 @@ const DogWilliam = () => {
                                 <li className="my-2">Data urodzenia :</li>
                                 <li className="my-2">Ojciec :</li>
                                 <li className="my-2">Matka :</li>
-                                <li className="my-2">Badania :</li>
-                                <li className="my-2">Właściciel :</li>
+                                <li className="my-2">
+                                    Badania : Stawy HD/A, Eyes - Clear
+                                </li>
+                                <li className="my-2">
+                                    Właściciel : Ewa Wawrzeńczyk
+                                </li>
                                 <li className="my-2">Hodowca :</li>
                                 <li className="my-2">Wzrost : 53cm</li>
                                 <li className="mb-2">Waga : 20kg</li>

@@ -35,11 +35,30 @@ const DogPola = () => {
                                 <li className="my-2">Data urodzenia :</li>
                                 <li className="my-2">Ojciec :</li>
                                 <li className="my-2">Matka :</li>
-                                <li className="my-2">Badania :</li>
-                                <li className="my-2">Właściciel :</li>
+                                <li className="my-2">
+                                    Badania : Stawy HD/A, Eyes - Clear
+                                </li>
+                                <li className="my-2">
+                                    Właściciel : Ewa Wawrzeńczyk
+                                </li>
                                 <li className="my-2">Hodowca :</li>
                                 <li className="my-2">Wzrost : 53cm</li>
                                 <li className="mb-2">Waga : 20kg</li>
+                            </ul>
+                            <h3 className="text-base">Tytuły:</h3>
+                            <ul className="text-sm xsm:text-base">
+                                <li className="mt-2">
+                                    Open Champion of Poland
+                                </li>
+                                <li className="my-2">
+                                    Jr. Champion of Macedonia
+                                </li>
+                                <li className="my-2">
+                                    Grand Champion of Romania
+                                </li>
+                                <li className="mb-2">
+                                    Jr. Champion of Croatia
+                                </li>
                             </ul>
                         </div>
                         <div className="w-min my-5 rounded-md whitespace-nowrap text-royalPink-50 bg-royalPink-400 border-royalPink-600 border-b-4 hover:border-b-0 hover:translate-y-1 hover:mb-6">
