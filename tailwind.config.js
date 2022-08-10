@@ -5,7 +5,7 @@ module.exports = {
         extend: {
             backgroundImage: {
                 "landing-photo-1": "url('images/samoyed.webp')",
-                "landing-photo-2": "url('images/samoyedWalking.webp')",
+                "landing-photo-2": "url('images/William.webp')",
                 "our-dogs": "url('images/background-blue.webp')",
                 "why-us": "url('images/background-pink.webp')",
             },
@@ -48,7 +48,8 @@ module.exports = {
                 "translate-0-5": "transform: translateX(0px,5px)",
             },
             backgroundPosition: {
-                "l-50-0": "50% 0%",
+                "50-0": "50% 0%",
+                "0-40": "0% 30%",
             },
             screens: {
                 xsm: "400px",
