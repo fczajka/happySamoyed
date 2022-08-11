@@ -32,16 +32,25 @@ const DogPola = () => {
                             </p>
                             <ul className="text-sm xsm:text-base">
                                 <li className="mt-2">Płeć : Suczka</li>
-                                <li className="my-2">Data urodzenia :</li>
-                                <li className="my-2">Ojciec :</li>
-                                <li className="my-2">Matka :</li>
+                                <li className="my-2">
+                                    Data urodzenia : 04.05.2020
+                                </li>
+                                <li className="my-2">
+                                    Ojciec : ALKHABOR ALMIRA TRIUMPHANT SHERLOCK
+                                    (CH RUS, JCH RUS, CH RKF BST)
+                                </li>
+                                <li className="my-2">
+                                    Matka : IZDOMASU ORMI LIGHT
+                                </li>
                                 <li className="my-2">
                                     Badania : Stawy HD/A, Eyes - Clear
                                 </li>
                                 <li className="my-2">
                                     Właściciel : Ewa Wawrzeńczyk
                                 </li>
-                                <li className="my-2">Hodowca :</li>
+                                <li className="my-2">
+                                    Hodowca : MAKAROVA A.A.
+                                </li>
                                 <li className="my-2">Wzrost : 53cm</li>
                                 <li className="mb-2">Waga : 20kg</li>
                             </ul>

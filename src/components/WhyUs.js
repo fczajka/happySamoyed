@@ -7,13 +7,13 @@ import walkingPic from "../images/movement.jpg";
 
 const WhyUs = () => {
     const walkingText =
-        "Nasze psy mają dostęp do dużego podwórka do zabaw oraz zapewniamy im codzienne długie spacery.";
+        "Pieski mają dostęp do dużego podwórka do zabaw oraz zapewniamy im codzienne długie spacery.";
     const funText =
-        "Organizujemy naszym pieskom wiele socjalizujących zabaw, jak i również samodzielnie je szkolimy i bawimy.";
+        "Organizujemy pieskom wiele socjalizujących zabaw, jak i również samodzielnie je szkolimy i bawimy.";
     const learningText =
-        "Każdy nasz pies jest nauczony zachowania czystości w domu jak i zachowania na spacerach";
+        "Każdy piesek został od małego nauczony zachowania czystości w domu jak i zachowania na spacerach.";
     const foodText =
-        "Nasze psy są karmione karmą Royal Cayien oraz często otrzymują posiłki typu BARF. Do tego oczywiście wszelką potrzebną suplementację.";
+        "Pieski są karmione karmą Royal Cayien oraz często otrzymują posiłki typu BARF. Do tego oczywiście wszelką potrzebną suplementację.";
 
     return (
         <div

@@ -40,7 +40,9 @@ const DogWilliam = () => {
                                 <li className="my-2">
                                     Właściciel : Ewa Wawrzeńczyk
                                 </li>
-                                <li className="my-2">Hodowca :</li>
+                                <li className="my-2">
+                                    Hodowca : NORTH DIAMOND
+                                </li>
                                 <li className="my-2">Wzrost : 56cm</li>
                                 <li className="mb-2">Waga : 22kg</li>
                             </ul>
