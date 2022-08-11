@@ -3,7 +3,7 @@ import Card from "./Card";
 import foodPic from "../images/food.webp";
 import funPic from "../images/samoyedFun.webp";
 import learningPic from "../images/samoyedLearning.webp";
-import walkingPic from "../images/movement.jpg";
+import walking from "../images/samoyedRun.webp";
 
 const WhyUs = () => {
     const walkingText =
@@ -27,7 +27,7 @@ const WhyUs = () => {
                 <div className="w-full flex flex-col items-center justify-around sm:flex-row md:w-full">
                     <Card
                         text="Dużo ruchu"
-                        photo={walkingPic}
+                        photo={walking}
                         description={walkingText}
                     />
                     <Card

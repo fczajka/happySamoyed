@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import walking from "../images/movement.jpg";
+import walking from "../images/samoyedRun.webp";
 import fun from "../images/samoyedFun.webp";
 import samoyedLearning from "../images/samoyedLearning.webp";
 import food from "../images/food.webp";
