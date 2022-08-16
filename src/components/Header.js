@@ -28,7 +28,7 @@ const Header = () => {
             <div className="flex w-full h-full mx-auto max-w-1920 items-center">
                 <div className="basis-full flex justify-center items-center lg:basis-7/12">
                     <h1 className="text-center tracking-wide font-titan-one text-2xl mx-4 my-1 xsm:my-0 xsm:text-4xl">
-                        <Link to="/">Sczęśliwy Puszek</Link>
+                        <Link to="/">Szczęśliwy Puszek</Link>
                     </h1>
                 </div>
                 <ul className="hidden justify-center space-x-4 lg:flex lg:basis-5/12">
