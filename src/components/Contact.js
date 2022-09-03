@@ -43,7 +43,7 @@ const Contact = () => {
             const sendMail = emailjs
                 .sendForm(
                     "gmail",
-                    "template_7y5yjvg",
+                    "template_b60lpk8",
                     form.current,
                     "d-iXMGfxsUvFFZHe0"
                 )
